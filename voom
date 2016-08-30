@@ -17,9 +17,8 @@
 
 set -e
 
-VIM_DIR="${VIM_DIR:-$HOME/.vim}"
-MANIFEST="$VIM_DIR/plugins"
-BUNDLE_DIR="$VIM_DIR/bundle"
+MANIFEST="${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugins"
+BUNDLE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/bundle"
 COMMENT='^#'
 action="$1"
 

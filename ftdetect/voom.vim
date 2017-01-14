@@ -1,2 +1,2 @@
-autocmd BufNewFile,BufRead plugins setfiletype voom
+autocmd BufNewFile,BufRead *.voom setfiletype voom
 

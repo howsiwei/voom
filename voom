@@ -17,7 +17,7 @@
 
 set -e
 
-MANIFEST="${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugins"
+MANIFEST="${XDG_CONFIG_HOME:-$HOME/.config}/voom/all.voom"
 BUNDLE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/bundle"
 COMMENT='^#'
 action="$1"
